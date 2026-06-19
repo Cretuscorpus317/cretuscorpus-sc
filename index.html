@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cretus Corpus Strength & Conditioning — Picayune, MS</title>
+  <meta name="description" content="Cretus Corpus Strength & Conditioning — A faith-based, family-friendly fitness gym in Picayune, Mississippi. Community, coaching, and results.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#home" class="nav-logo">
+    <img src="img/ccsclogo.png" alt="Cretus Corpus Strength & Conditioning" style="height:52px;width:52px;object-fit:contain;border-radius:50%;">
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#schedule">Schedule</a></li>
+    <li><a href="#coaches">Coaches</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#dropins">Drop-Ins</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" class="mobile-link">About</a>
+  <a href="#schedule" class="mobile-link">Schedule</a>
+  <a href="#coaches" class="mobile-link">Coaches</a>
+  <a href="#pricing" class="mobile-link">Pricing</a>
+  <a href="#dropins" class="mobile-link">Drop-Ins</a>
+  <a href="#contact" class="mobile-link">Contact</a>
+</div>
+
+<!-- HERO SLIDESHOW — auto-advances every 5 seconds, arrows to go back/forward -->
+<section class="hero" id="home">
+  <div class="hero-slides" id="heroSlides">
+    <div class="hero-slide active" style="background-image:url('img/gymFloor1.png')"></div>
+    <div class="hero-slide" style="background-image:url('img/gymFloor2.webp')"></div>
+    <div class="hero-slide" style="background-image:url('img/gymFloor3.webp')"></div>
+    <div class="hero-slide" style="background-image:url('img/Friends3.JPG')"></div>
+    <div class="hero-slide" style="background-image:url('img/Friends4.JPG')"></div>
+  </div>
+  <div class="hero-arrows">
+    <button class="hero-arrow" id="heroPrev">&#8592;</button>
+    <button class="hero-arrow" id="heroNext">&#8594;</button>
+  </div>
+  <div class="hero-content">
+    <img src="img/ccsclogo.png" alt="Cretus Corpus Strength & Conditioning Logo" style="width:min(200px,50vw);height:min(200px,50vw);object-fit:contain;border-radius:50%;margin-bottom:20px;filter:drop-shadow(0 0 30px rgba(200,16,46,0.5));">
+    <p class="hero-eyebrow">Picayune, Mississippi</p>
+    <h1>Cretus<br><span class="accent">Corpus</span><br>Strength & Conditioning</h1>
+    <p class="hero-tagline">Latin for "A Risen Body"</p>
+    <p class="hero-verse">"Whatever you do in word or deed, do all in the name of the Lord Jesus." — Colossians 3:17</p>
+    <div class="hero-btns">
+      <a href="#pricing" class="btn btn-primary">Free Trial — Start Today</a>
+      <a href="#schedule" class="btn btn-outline">See Schedule</a>
+    </div>
+  </div>
+</section>
+<div class="stripe"></div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <p class="section-label">Who We Are</p>
+        <h2 class="section-title">Faith. Family.<br>Fitness.</h2>
+        <p class="section-body">
+          Cretus Corpus Strength & Conditioning is a family-friendly and faith-based gym that places a huge emphasis on community. The people and coaches here strive to provide an encouraging and supportive environment where your body and soul can prosper.
+        </p>
+        <div class="verse-block">
+          <p>"Whatever you do in word or deed, do all in the name of the Lord Jesus, giving thanks to God the Father through Him."</p>
+          <cite>— Colossians 3:17</cite>
+        </div>
+        <p class="section-body">
+          You may just be looking to stay healthy or find a starting point for your fitness journey, but we believe you'll find so much more than that here.
+        </p>
+        <div class="about-stats">
+          <div class="stat">
+            <div class="stat-num">11</div>
+            <div class="stat-label">Classes / Week</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">5:30</div>
+            <div class="stat-label">First Class AM</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Free</div>
+            <div class="stat-label">Trial Class</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Open Gym</div>
+            <div class="stat-label">Ask us about open gym</div>
+          </div>
+        </div>
+      </div>
+      <img src="img/gymFloor2.webp" alt="Cretus Corpus gym floor" class="about-img">
+    </div>
+  </div>
+</section>
+
+<!-- SCHEDULE -->
+<section class="schedule" id="schedule">
+  <div class="container">
+    <p class="section-label">Group Fitness Classes</p>
+    <h2 class="section-title">Weekly Schedule</h2>
+    <p class="section-body">Classes run Monday through Saturday. All levels are welcome — you'll be coached and scaled to your ability.</p>
+    <div class="schedule-grid">
+      <div class="day-card">
+        <div class="day-name">Monday</div>
+        <div class="time-slot">5:30 AM</div>
+        <div class="time-slot">9:00 AM</div>
+        <div class="time-slot">4:00 PM</div>
+        <div class="time-slot">5:00 PM</div>
+        <div class="time-slot">6:00 PM</div>
+      </div>
+      <div class="day-card">
+        <div class="day-name">Tuesday</div>
+        <div class="time-slot">5:30 AM</div>
+        <div class="time-slot">9:00 AM</div>
+        <div class="time-slot">4:00 PM</div>
+        <div class="time-slot">5:00 PM</div>
+        <div class="time-slot">6:00 PM</div>
+      </div>
+      <div class="day-card">
+        <div class="day-name">Wednesday</div>
+        <div class="time-slot">5:30 AM</div>
+        <div class="time-slot">9:00 AM</div>
+        <div class="time-slot">4:00 PM</div>
+        <div class="time-slot">5:00 PM</div>
+        <div class="time-slot">6:00 PM</div>
+      </div>
+      <div class="day-card">
+        <div class="day-name">Thursday</div>
+        <div class="time-slot">5:30 AM</div>
+        <div class="time-slot">9:00 AM</div>
+        <div class="time-slot">4:00 PM</div>
+        <div class="time-slot">5:00 PM</div>
+        <div class="time-slot">6:00 PM</div>
+      </div>
+      <div class="day-card">
+        <div class="day-name">Friday</div>
+        <div class="time-slot">5:30 AM</div>
+        <div class="time-slot">9:00 AM</div>
+        <div class="time-slot">4:00 PM</div>
+        <div class="time-slot">5:00 PM</div>
+        <div class="time-slot">6:00 PM</div>
+      </div>
+      <div class="day-card saturday">
+        <div class="day-name">Saturday</div>
+        <div class="time-slot">9:00 AM</div>
+      </div>
+    </div>
+    <p class="open-gym-note"><strong>New here?</strong> Walk in, introduce yourself, fill out a waiver, and jump into your first class free. You'll be scaled to your level — no experience needed.</p>
+  </div>
+</section>
+
+<!-- COACHES -->
+<section class="coaches" id="coaches">
+  <div class="container">
+    <p class="section-label">The Team</p>
+    <h2 class="section-title">Meet Our Coaches</h2>
+    <p class="section-body">Amazing coaches who are genuinely invested in your progress and in this community.</p>
+    <div class="coaches-grid">
+      <div class="coach-card">
+        <img src="img/cody.png" alt="Cody Morris" class="coach-img">
+        <div class="coach-name">Cody Morris</div>
+        <div class="coach-role">Co-Owner & Coach</div>
+        <div class="coach-bio">Brings energy and technical precision to every class. Dedicated to helping athletes of all levels move better and get stronger.</div>
+      </div>
+      <div class="coach-card">
+        <img src="img/kevin.png" alt="Kevin Farmer" class="coach-img">
+        <div class="coach-name">Kevin Farmer</div>
+        <div class="coach-role">Co-Owner & Coach</div>
+        <div class="coach-bio">Passionate about building a gym where faith, fitness, and family come first.</div>
+      </div>
+      <div class="coach-card">
+        <img src="img/angie.png" alt="Angie Woodard" class="coach-img">
+        <div class="coach-name">Angie Woodard</div>
+        <div class="coach-role">Coach</div>
+        <div class="coach-bio">Creates a welcoming, high-energy environment for every member. A familiar face and steady presence in the CCSC community.</div>
+      </div>
+      <div class="coach-card">
+        <img src="img/tiffany.png" alt="Tiffany Cuevas" class="coach-img">
+        <div class="coach-name">Tiffany Cuevas</div>
+        <div class="coach-role">Certified Coach</div>
+        <div class="coach-bio">Focused on form, safety, and helping newer athletes build confidence from day one.</div>
+      </div>
+      <div class="coach-card">
+        <img src="img/greg.jpeg" alt="Greg Grillot" class="coach-img">
+        <div class="coach-name">Greg Grillot</div>
+        <div class="coach-role">Gymnastics Coach</div>
+        <div class="coach-bio">Gymnastics Background, can help you work on your Hand stand and gymnastic Goals!</div>
+      </div>
+      <div class="coach-card">
+        <img src="img/chris.png" alt="Chris Sherril" class="coach-img">
+        <div class="coach-name">Chris Sherril</div>
+        <div class="coach-role">Gymnastics Coach</div>
+        <div class="coach-bio">Law Enforcement Background, can help with general fitness Goals.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <p class="section-label">Membership</p>
+    <h2 class="section-title">Prices & Plans</h2>
+    <p class="section-body">No hidden fees. All memberships are managed through Wodify with monthly auto-draft.</p>
+    <div class="plans-grid">
+      <div class="plan-card">
+        <div class="plan-name">Month-to-Month</div>
+        <div class="plan-price"><sup>$</sup>85</div>
+        <div class="plan-period">/ month · No contract</div>
+        <ul class="plan-features">
+          <li>Unlimited group fitness classes</li>
+          <li>All scheduled time slots</li>
+          <li>Cancel anytime</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline" style="width:100%;text-align:center;">Get Started</a>
+      </div>
+      <div class="plan-card">
+        <div class="plan-name">Military / First Responders / Students</div>
+        <div class="plan-price"><sup>$</sup>75</div>
+        <div class="plan-period">/ month · Service discount</div>
+        <ul class="plan-features">
+          <li>Unlimited group fitness classes</li>
+          <li>All scheduled time slots</li>
+          <li>Valid ID required</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline" style="width:100%;text-align:center;">Get Started</a>
+      </div>
+      <div class="plan-card">
+        <div class="plan-name">Additional Household</div>
+        <div class="plan-price"><sup>$</sup>65</div>
+        <div class="plan-period">/ month · Up to 2 additional</div>
+        <ul class="plan-features">
+          <li>Unlimited group fitness classes</li>
+          <li>All scheduled time slots</li>
+          <li>Family discount applied</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline" style="width:100%;text-align:center;">Get Started</a>
+      </div>
+      <div class="plan-card">
+        <div class="plan-name">6 visit Punch Card</div>
+        <div class="plan-price"><sup>$</sup>35</div>
+        <div class="plan-period"> single purchase </div>
+        <ul class="plan-features">
+          <li>All scheduled time slots</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline" style="width:100%;text-align:center;">Get Started</a>
+      </div>
+      <div class="plan-card">
+        <div class="plan-name">10 visit Punch Card</div>
+        <div class="plan-price"><sup>$</sup>60</div>
+        <div class="plan-period"> single purchase </div>
+        <ul class="plan-features">
+          <li>All scheduled time slots</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline" style="width:100%;text-align:center;">Get Started</a>
+      </div>
+      <div class="plan-card">
+        <div class="plan-name">Single Drop In</div>
+        <div class="plan-price"><sup>$</sup>7</div>
+        <div class="plan-period"> single purchase </div>
+        <ul class="plan-features">
+          <li>All scheduled time slots</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline" style="width:100%;text-align:center;">Get Started</a>
+      </div>
+      <div class="plan-card">
+        <div class="plan-name">Sauna Membership</div>
+        <div class="plan-price"><sup>$</sup>30</div>
+        <div class="plan-period">/ month </div>
+        <ul class="plan-features">
+          <li>Unlimited Use</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline" style="width:100%;text-align:center;">Get Started</a>
+      </div>
+
+    </div>
+    <p class="wodify-note">All memberships set up through <strong>Wodify</strong> — auto-drafts your account each month. <a href="#contact">Contact us to get started.</a></p>
+  </div>
+</section>
+
+<!-- DROP-INS -->
+<section class="dropins" id="dropins">
+  <div class="container">
+    <div class="dropins-inner">
+      <div>
+        <p class="section-label">Visiting? Traveling?</p>
+        <h2 class="section-title" style="color:var(--white)">Drop-Ins & Visitors</h2>
+        <p>Visiting the area or just want to try a class before committing? Drop-ins are welcome at Cretus Corpus Strength & Conditioning. Come in, meet the coaches and community, and get a workout in.</p>
+        <p>First class is free. Contact us ahead of time or just show up — we'll get you set up with a waiver and drop you into the next class.</p>
+        <a href="#contact" class="btn btn-primary">Plan Your Visit</a>
+      </div>
+      <img src="img/gymFloor3.webp" alt="Group fitness class" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-left:4px solid var(--red);">
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <p class="section-label">Get In Touch</p>
+    <h2 class="section-title">Contact Us</h2>
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <p>Fastest way to reach us is to call or text! Come see the gym, meet the team, and find out why Cretus Corpus is more than just a fitness center.</p>
+        <div class="contact-detail">
+          <div class="contact-icon">📍</div>
+          <span>1310 South Haugh Avenue<br>Picayune, Mississippi 39466</span>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon">📞</div>
+          <span><a href="tel:6015902441">(601) 590-2441</a></span>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon">🕐</div>
+          <span>Mon–Fri: 5:30 AM, 9:00 AM, 4:00 PM, 5:00 PM, 6:00 PM<br>Saturday: 9:00 AM</span>
+        </div>
+        <div class="social-links">
+          <a href="https://www.facebook.com/711617322228771" target="_blank" class="social-btn fb">
+            <svg width="14" height="14" fill="white" viewBox="0 0 24 24"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.235 2.686.235v2.97h-1.514c-1.491 0-1.956.93-1.956 1.874v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+            Facebook
+          </a>
+          <a href="https://www.instagram.com/cretuscorpus" target="_blank" class="social-btn ig">
+            <svg width="14" height="14" fill="white" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.919-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            Instagram
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-actions">
+        <p class="contact-actions-label">Ready to Start?</p>
+        <p class="contact-actions-sub">Call or text us directly — no forms, no wait.</p>
+        <a href="tel:6015902441" class="btn btn-primary contact-cta">📞 &nbsp;Call Us</a>
+        <a href="sms:6015902441" class="btn btn-secondary contact-cta">💬 &nbsp;Text Us</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- FOOTER -->
+<footer>
+  <img src="img/ccsclogo.png" alt="Cretus Corpus Strength & Conditioning" style="width:90px;height:90px;object-fit:contain;border-radius:50%;margin-bottom:12px;">
+  <div class="footer-tagline">Latin for "A Risen Body" · Picayune, MS</div>
+  <ul class="footer-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#schedule">Schedule</a></li>
+    <li><a href="#coaches">Coaches</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#dropins">Drop-Ins</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <address>
+    1310 South Haugh Avenue · Picayune, Mississippi 39466<br>
+    <a href="tel:6015902441" style="color:#555;text-decoration:none;">(601) 590-2441</a>
+  </address>
+  <small>© 2026 Cretus Corpus Strength & Conditioning — All Rights Reserved.</small>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
